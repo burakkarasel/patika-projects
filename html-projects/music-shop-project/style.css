@@ -1,0 +1,26 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#nav-bar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.navs {
+    margin: 0 5px;
+}
+.purple-text {
+    color: purple;
+}
+.crimson-text {
+    color: crimson;
+    justify-content: center;
+}
+#items{
+    list-style-position: inside;
+}
+.ul-header{
+    color: rgb(158, 158, 78);
+}
