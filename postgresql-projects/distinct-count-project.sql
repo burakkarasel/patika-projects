@@ -24,4 +24,4 @@ WHERE country LIKE '_____';
 
 SELECT COUNT(city)
 FROM city
-WHERE city LIKE '%r' OR city LIKE '%R';
+WHERE city ILIKE '%r';
