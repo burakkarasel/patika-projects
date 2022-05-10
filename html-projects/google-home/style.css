@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+li {
+    display: inline;
+    margin: 1rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#left {
+    display: flex;
+}
+#right {
+    display: flex;
+    align-items: right;
+}
+section{
+    position: relative;
+}
+#main-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+a:hover {
+    text-decoration: underline  ;
+}
+#navs {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+ion-icon{
+    position: relative;
+    color: gray;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+#sign-in{
+    height: 30px;
+    width: 5rem;
+    padding: 0.4rem 1rem;
+    border-radius: 3px;
+    border: none;
+    background-color: #4285F4;
+    color: white;
+    position: relative;
+    top: -6px;
+    font-weight: bold;
+}
+#mic-icon {
+    position: relative;
+    width: 0.75rem;
+    
+}
+#magnifier {
+    position: relative;
+    width: 1rem;
+    
+}
+input[type="search"]{
+    width: 30rem;
+    outline: none;
+    height: 2.5rem;
+    border: none;
+}
+#submits input[type='submit']{
+    padding: 10px;
+    border: none;
+    height: 2.25rem;
+    border-radius: 5px;
+    background-color: rgb(247, 243, 243);
+    margin: 0 3px;
+    color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+p a {
+    text-decoration: underline;
+    color: blue;
+}
+#search-box img {
+    cursor: pointer;
+}
+#search-box {
+    width: 35rem;
+    height: 3rem;
+    border-radius: 50px;
+    width: 35rem;
+    height: 3rem;
+    border: 1px solid rgb(201, 193, 193);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#main-container * {
+    margin: 0.75rem;
+}
+p, p a {
+    font-size: 0.75rem;
+}
+#search-box:hover {
+    box-shadow: 0 0 10px rgb(226, 221, 221);
+}
+#submits input:hover {
+    box-shadow: 0 0 10px rgb(226, 221, 221);
+}
